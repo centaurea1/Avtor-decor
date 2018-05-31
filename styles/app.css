@@ -1,0 +1,86 @@
+.title {
+    text-align: center;
+}
+
+.fast-work .tabs {
+    border: 2px solid #333333;
+    border-radius: 10px;
+    width: 882px;
+    margin: 0 auto;
+}
+
+.fast-work .tabs-title {
+    border-radius: 10px;
+    background: #333333;
+}
+
+.fast-work .tabs-title.is-active{
+    border-radius: 10px;
+}
+
+.fast-work .tabs-title>a {
+    padding: 0.5rem 3rem;
+}
+
+.gallery .media-object {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.gallery .media-object img {
+    width: 300px;
+}
+.gallery .media-object-section {
+    padding: 1rem;
+}
+
+.reviews .circle {
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #333333;
+}
+
+.reviews .name {
+    display: inline-flex;
+}
+
+.reviews .callout {
+    margin-right: 2rem;
+    width: 300px;
+}
+
+.reviews .callout.last{
+    margin-right: 0;
+}
+
+.reviews .section {
+    display: flex;
+    justify-content: center;
+}
+
+.reviews .button {
+    background: none;
+    color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer {
+    background: url('../image/footer-back.png') no-repeat;
+}
+
+.footer .section {
+    display: flex;
+    justify-content: center;
+}
+
+.footer .callout {
+    border: 0;
+    background: none;
+}
+.footer .callout ul {
+    list-style: none;
+}
