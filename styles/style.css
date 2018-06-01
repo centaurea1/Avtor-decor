@@ -125,16 +125,17 @@
 }
 
 .glass-banner {
-    height: 400px;
     background: url('../image/glass-banner.jpg')no-repeat 50% 0;
 }
 
 .glass-banner > * {
     color: #ffffff;
+    padding: 50px;
 }
 
-.glass-banner .description {
-    width: 300px;
+.glass-banner .content {
+    width: 500px;
+    margin-bottom: 150px;
 }
 
 .glass-banner .info {
